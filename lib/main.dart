@@ -1,3 +1,4 @@
+import 'package:e_learning_app/utils/colors.dart';
 import 'package:e_learning_app/views/OnboardingScreen/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        scaffoldBackgroundColor: AppColors.backgroundColor,
       ),
       home: const OnBoardingScreen(),
     );
